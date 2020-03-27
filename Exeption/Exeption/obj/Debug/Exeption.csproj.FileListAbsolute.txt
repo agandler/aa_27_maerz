@@ -1,0 +1,6 @@
+D:\schule\2chk\apr\apr2-aa\Exeption\Exeption\bin\Debug\Exeption.exe.config
+D:\schule\2chk\apr\apr2-aa\Exeption\Exeption\bin\Debug\Exeption.exe
+D:\schule\2chk\apr\apr2-aa\Exeption\Exeption\bin\Debug\Exeption.pdb
+D:\schule\2chk\apr\apr2-aa\Exeption\Exeption\obj\Debug\Exeption.csprojAssemblyReference.cache
+D:\schule\2chk\apr\apr2-aa\Exeption\Exeption\obj\Debug\Exeption.exe
+D:\schule\2chk\apr\apr2-aa\Exeption\Exeption\obj\Debug\Exeption.pdb
