@@ -10,13 +10,13 @@ namespace Exeption
     {
         static void Main(string[] args)
         {
-            //Üb 1
+            //ex. I.
             string[] names = new string[3];
             try
             {
                 for (int i = 0; i <= 3; i++)
                 {
-                    Console.WriteLine("Name: ");
+                    Console.Write("Name: ");
                     names[i] = Console.ReadLine();
                 }
             }
@@ -24,6 +24,31 @@ namespace Exeption
             {
                Console.WriteLine(e.Message);
             }
+
+            //ex. II.
+            try
+            {
+                Console.Write("Enter a number: ");
+                int num1 = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Enter another number: ");
+                int num2 = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine(num1 / num2);
+
+            }
+            catch (FormatException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            catch(DivideByZeroException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+
+
+           
+            
+
             Console.ReadLine();
         }
     }
