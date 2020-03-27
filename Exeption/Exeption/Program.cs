@@ -28,11 +28,11 @@ namespace Exeption
             //ex. II.
             try
             {
-                Console.Write("Enter a number: ");
-                int num1 = Convert.ToInt32(Console.ReadLine());
-                Console.Write("Enter another number: ");
-                int num2 = Convert.ToInt32(Console.ReadLine());
-
+                int num1 = 10;
+                Console.WriteLine("number 1: {0} ",num1);
+                int num2 = 0;
+                Console.WriteLine("number 2 : {0}",num2);
+          
                 Console.WriteLine(num1 / num2);
 
             }
@@ -45,10 +45,30 @@ namespace Exeption
                 Console.WriteLine(e.Message);
             }
 
+            //ex III.
+            try
+            {
+                Console.WriteLine("Enter a number: ");
+                int num = Convert.ToInt32(Console.ReadLine());
 
-           
+                Console.WriteLine("Enter another number: ");
+                int addend = Convert.ToInt32(Console.ReadLine());
+
+                if (addend == 10)
+                {
+                    throw new Exception("Sorry the addition is not possible");
+                }
+
+                int sum = num + addend;
+
+                Console.WriteLine("Result: {0}", sum);
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
             
-
             Console.ReadLine();
         }
     }
